@@ -33,3 +33,8 @@ The project tests utility functions in `measurements.py` that validate and proce
    ```bash
    pytest -v
    ```
+
+## Continuous Integration (GitHub Actions)
+
+Tests run automatically via GitHub Actions (`.github/workflows/pytest.yml`) on every `push` and `pull_request`, and can also be triggered manually from the **Actions** tab (`workflow_dispatch`).
+
